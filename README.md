@@ -6,6 +6,7 @@
 
 - **Multi-Channel Support**: Send notifications through various channels, including:
     - Postfix (local email server)
+    - Sendmail (local email server)
     - Mailchimp Transactional API
     - Telegram
     - Slack
@@ -119,7 +120,8 @@ func main() {
 
 ### Supported Channels
 
-- **Postfix**: Send emails via the local Postfix server.
+- **Postfix**: Send emails via the local Postfix server in Linux.
+- **Sendmail**: Send emails via the local Sendmail command in Linux.
 - **Mailchimp Transactional API**: Deliver transactional emails through Mailchimp.
 - **Telegram**: Notify users or groups using Telegram bots.
 - **Slack**: Post messages to Slack channels via webhook URLs.
