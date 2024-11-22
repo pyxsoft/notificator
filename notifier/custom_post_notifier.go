@@ -8,6 +8,7 @@ import (
 
 	"github.com/pyxsoft/notificator/event"
 	"github.com/pyxsoft/notificator/preference"
+	"github.com/pyxsoft/notificator/template"
 )
 
 type CustomPostNotifier struct {
