@@ -1,0 +1,2 @@
+# notificator
+Notifications in Go
